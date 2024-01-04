@@ -1,0 +1,41 @@
+body {
+  background-color: #f1f5f8;
+}
+container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#title {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#counter {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+#btns {
+  display: flex;
+  margin-top: 30px;
+  div {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+}
+#rec {
+  margin: 0 15px;
+}
+
+.minus {
+  color: red;
+}
+.plus {
+  color: green;
+}
